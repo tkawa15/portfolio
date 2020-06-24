@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+      <meta charset="utf-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <meta name="description" content="T.Kawashima's portfolio website." />
+      <title>T.Kawashima</title>
+      <link rel="stylesheet" href="/index.css" />
+      <link rel="stylesheet" href="/style.css" />
+    </head>
+
+    <body>
+
+      <%- include("./parts/header.ejs"); %>
+
+      <div class="top">
+         <div class="intro">
+          <h1>Welcome!</h1>
+          <p>This is T.Kawashima's portfolio.</p>
+        </div>
+        <% var topimages1 = []; %>
+        <% var topimages2 = []; %>
+        <% for(var i=0; i<parseInt(topimages.length/2); i++){ topimages1.push(topimages[i]); } %>
+        <% for(var i=parseInt(topimages.length/2); i<topimages.length; i++){ topimages2.push(topimages[i]); } %>
+        <div class="loop-wrap">
+          <% for(var j=0; j<2; j++){ %>
+            <ul>
+              <% topimages1.map(topimg1 => { %>
+                <li>
+                  <a href="/articles/<%= topimg1.link %>">
+                    <img src="<%= topimg1.imgurl %>/raw/" />
+                  </a>
+                </li>
+              <% }); %>
+            </ul>
+          <% } %>
+        </div>
+        <div class="loop-wrap">
+          <% for(var j=0; j<2; j++){ %>
+            <ul>
+              <% topimages2.map(topimg2 => { %>
+                <li>
+                  <a href="/articles/<%= topimg2.link %>">
+                    <img src="<%= topimg2.imgurl %>/raw/" />
+                  </a>
+                </li>
+              <% }); %>
+            </ul>
+          <% } %>
+        </div>
+      </div>
+  <main>
+
+      <section id="about" class="about">
+        <div class="section-wrapper">
+          <img src="https://gyazo.com/e18546356e8e61a69e36d038eb108f33/raw/" />
+          <h3>T.Kawashima</h3>
+          <p>A Student of Department of Frontier Media Science, Meiji Univ.</p>
+          <div class="sns-links">
+            <a href="https://twitter.com/t_shinchoku" class="to-twitter"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/t.kawashima.2525/" class="to-instagram"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.youtube.com/channel/UCxaXfQNGb9RsNXguw6czxTw" class="to-youtube"><i class="fab fa-youtube"></i></a>
+            <a href="https://github.com/T-Kawashima-fms" class="to-github"><i class="fab fa-github"></i></a>
+            <a href="https://qiita.com/T-Kawashima" class="to-qiita">Q</a>
+          </div>
+          <div class="button-ani-rect">
+            <a href="/about">
+              <span class="button-ani-rect-span">More→</span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section id="research" class="articles">
+        <div class="section-wrapper">
+          <h2>Research</h2>
+          <div class="articles-cards">
+          <% var researches = researches.slice(0, 3); %>
+          <% researches.map(research => { %>
+            <div class="article-card">
+              <a href="/articles/research/<%= research.shortname %>"></a>
+              <img src="<%= research.topimage %>/raw/" />
+              <div class="article-card-detail">
+                <h3><%= research.name %></h3>
+                <p><%= research.abstract %></p>
+                <p class="detail-date"><%= research.date %></p>
+              </div>
+            </div>
+          <% }); %>
+          </div>
+          <div class="button-ani-rect">
+            <a href="/articles/research">
+              <span class="button-ani-rect-span">More→</span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section id="work" class="articles">
+        <div class="section-wrapper">
+          <h2>Work</h2>
+          <div class="articles-cards">
+          <% var works = works.slice(0, 3); %>
+          <% works.map(work => { %>
+            <div class="article-card">
+              <a href="/articles/work/<%= work.shortname %>"></a>
+              <img src="<%= work.topimage %>/raw/" />
+              <div class="article-card-detail">
+                <h3><%= work.name %></h3>
+                <p><%= work.abstract %></p>
+                <p class="detail-date"><%= work.date %></p>
+              </div>
+            </div>
+          <% }); %>
+          </div>
+          <div class="button-ani-rect">
+            <a href="/articles/work">
+              <span class="button-ani-rect-span">More→</span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section id="blog" class="articles">
+        <div class="section-wrapper">
+          <h2>Blog</h2>
+          <div class="articles-cards">
+          <% var blogs = blogs.slice(0, 3); %>
+          <% blogs.map(blog => { %>
+            <div class="article-card">
+              <a href="/articles/blog/<%= blog.shortname %>"></a>
+              <img src="<%= blog.topimage %>/raw/" />
+              <div class="article-card-detail">
+                <h3><%= blog.name %></h3>
+                <p><%= blog.abstract %></p>
+                <p class="detail-date"><%= blog.date %></p>
+              </div>
+            </div>
+          <% }); %>
+          </div>
+          <div class="button-ani-rect">
+            <a href="/articles/blog">
+              <span class="button-ani-rect-span">More→</span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <%- include("./parts/footer.ejs"); %>
+  </body>
+</html>

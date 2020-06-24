@@ -1,0 +1,93 @@
+.article .article-wrapper{
+  width: 50%;
+  margin: 0 auto;
+}
+
+.article h2{
+  margin-top: 64px;
+  border-bottom: 1px #ffffff solid;
+}
+
+.article .date{
+  text-align: right;
+  color: gray;
+}
+
+.article .abstract{
+  text-align: center;
+}
+.article .text h3{
+  margin-top: 128px;
+  padding: 8px 16px;
+  border-left: 4px #D8CC34 solid;
+  border-bottom: 1px #ffffff solid;
+}
+.article .text p,
+.article .text img,
+.article .text iframe,
+.article .text div,
+.article .text ul,
+.article .button-ani-rect{
+  margin-top: 64px;
+}
+
+.article img, .article iframe{
+  display: block;
+  width: 100%;
+}
+
+.article .text .caption{
+  margin-top: 16px;
+  text-align: center;
+  color: gray;
+  font-size: 0.9em;
+}
+.article .abstract{
+  margin-top: 64px;
+}
+.article .topimage{
+  margin-top: 16px;
+}
+
+.article .text a {
+	padding-bottom: 3px;
+	color: #D8CC34;
+	display: inline-block;
+	position: relative;
+}
+.article .text a:before {
+	content: '';
+	width: 0;
+	left: 50%;
+	bottom: 0;
+	transition: all .3s ease;
+	border-bottom: 1px solid #D8CC34;
+	position: absolute;
+	display: inline-block;
+}
+.article .text a:hover:before {
+	width: 50%;
+	border-bottom: 1px solid #D8CC34;
+}
+.article .text a:after {
+	content: '';
+	width: 0;
+	right: 50%;
+	bottom: 0;
+	transition: all .3s ease;
+	border-bottom: 1px solid #D8CC34;
+	position: absolute;
+	display: inline-block;
+}
+.article .text a:hover:after {
+	width: 50%;
+	border-bottom: 1px solid #D8CC34;
+}
+
+@media screen and (max-width: 896px) {
+  .article .article-wrapper{
+    width: 75%;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 480px) { }

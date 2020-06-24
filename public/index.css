@@ -1,0 +1,54 @@
+.loop-wrap {
+  display: flex;
+  width: 100vw;
+  height: 50%;
+  overflow: hidden;
+}
+
+.loop-wrap ul{
+  display: flex;
+  width: auto;
+  height: 100%;
+  list-style: none;
+}
+
+.loop-wrap ul li{
+  width: auto;
+  height: 100%;
+}
+
+.loop-wrap ul li img{
+  width: auto;
+  height: 100%;
+  filter: grayscale(100%);
+}
+
+.loop-wrap ul li img:hover{
+  cursor: pointer;
+  filter: grayscale(0%);
+}
+
+@keyframes loop {
+  0% {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+@keyframes loop2 {
+  0% {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-200%);
+  }
+}
+
+.loop-wrap ul:first-child {
+  animation: loop 100s linear -50s infinite;
+}
+
+.loop-wrap ul:last-child {
+  animation: loop2 100s linear infinite;
+}

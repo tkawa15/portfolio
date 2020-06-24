@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+      <meta charset="utf-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <meta name="description" content="T.Kawashima's portfolio website." />
+      <title>Articles - T.Kawashima's website</title>
+      <link rel="stylesheet" href="/article.css" />
+      <link rel="stylesheet" href="/style.css" />
+    </head>
+
+    <body>
+      <%- include("./parts/header.ejs"); %>
+
+      <main class="article">
+
+        <div class="article-wrapper">
+          <h2><%= details.name %></h2>
+          <div class="date"><%= details.date %></div>
+          <p class="abstract"><%= details.abstract %></p>
+          <img class="topimage" src="<%= details.topimage %>/raw/" />
+          <div class="text">
+            <%- include("./articles/"+details.shortname+".html"); %>
+          </div>
+        </div>
+        <div class="button-ani-rect">
+        <% if( genre == "research" ){ %>
+                  <a href="/articles/research">
+                    <span class="button-ani-rect-span">←Research</span>
+                  </a>
+        <% }else if( genre == "work" ){ %>
+                  <a href="/articles/work">
+                    <span class="button-ani-rect-span">←Work</span>
+                  </a>
+        <% }else if( genre == "blog" ){ %>
+                  <a href="/articles/blog">
+                    <span class="button-ani-rect-span">←Blog</span>
+                  </a>
+        <% } %>
+        </div>
+
+        </main>
+
+      <%- include("./parts/footer.ejs"); %>
+    </body>
+</html>
