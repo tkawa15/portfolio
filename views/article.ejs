@@ -20,6 +20,13 @@
           <div class="date"><%= details.date %></div>
           <p class="abstract"><%= details.abstract %></p>
           <img class="topimage" src="<%= details.topimage %>/raw/" />
+          <div class="tags">
+            <% details.tags.map(tag => { %>
+              <a href="/articles/tag/<%= tag %>">
+                <i class="fas fa-tag"></i><%= tag %>
+              </a>
+            <% }); %>
+          </div>
           <div class="text">
             <%- include("./articles/"+details.shortname+".html"); %>
           </div>

@@ -33,6 +33,39 @@ app.get("/about", (request, response) => {
   response.render(__dirname + "/views/about.ejs");
 });
 
+app.get("/articles/tag/:tag", (request, response) => {
+  var res_articles = [];
+  const reqtag = request.params.tag;
+  works.map(work => {
+    var tags = work.tags;
+      tags.map(eachtag => {
+      if(eachtag === reqtag){
+        res_articles.push({"article_detail": work, "genre": "work"});
+      }
+    });
+  });
+  researches.map(research => {
+    var tags = research.tags;
+      tags.map(eachtag => {
+      if(eachtag === reqtag){
+        res_articles.push({"article_detail": research, "genre": "research"});
+      }
+    });
+  });
+  blogs.map(blog => {
+    var tags = blog.tags;
+      tags.map(eachtag => {
+      if(eachtag === reqtag){
+        res_articles.push({"article_detail": blog, "genre": "blog"});
+      }
+    });
+  });
+  response.render(__dirname + "/views/tag.ejs", {
+    articles: res_articles,
+    tagname: reqtag
+  });
+});
+
 app.get("/articles/:type", (request, response) => {
   var types;
   var arrName;

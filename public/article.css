@@ -84,10 +84,34 @@
 	border-bottom: 1px solid #D8CC34;
 }
 
+.article .tags{
+  margin-top: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.article .tags a{
+  display: inline-block;
+  color: #fff;
+  border: #fff solid 1px;
+  margin: 4px;
+  padding: 4px 8px;
+  font-size: 0.8em;
+  transition: .3s;
+}
+.article .tags a:hover{
+  transform: scale(1.1);
+  color: #D8CC34;
+  border-color: #D8CC34;
+}
+
 @media screen and (max-width: 896px) {
   .article .article-wrapper{
     width: 75%;
-    margin: 0 auto;
   }
 }
-@media screen and (max-width: 480px) { }
+@media screen and (max-width: 480px) {
+  .article .article-wrapper{
+    width: 88%;
+  }
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+      <meta charset="utf-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <meta name="description" content="T.Kawashima's portfolio website." />
+      <title>Articles - T.Kawashima's website</title>
+      <link rel="stylesheet" href="/articles.css" />
+      <link rel="stylesheet" href="/style.css" />
+    </head>
+
+    <body>
+      <%- include("./parts/header.ejs"); %>
+
+      <main>
+        <section class="articles">
+          <div class="section-wrapper">
+            <h2 class="sectiontitle-centering"><%= tagname %></h2>
+            <div class="articles-cards">
+            <% articles.map(article_data => { %>
+              <% var data = article_data.article_detail; %>
+              <div class="article-card">
+                <a href="/articles/<%= article_data.genre %>/<%= data.shortname %>"></a>
+                <img src="<%= data.topimage %>/raw/" />
+                <div class="article-card-detail">
+                  <h3><%= data.name %></h3>
+                  <p><%= data.abstract %></p>
+                  <p class="detail-date"><%= data.date %></p>
+                </div>
+              </div>
+            <% }); %>
+            </div>
+            <div class="button-ani-rect">
+              <a href="/">
+                <span class="button-ani-rect-span">←Top</span>
+              </a>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <%- include("./parts/footer.ejs"); %>
+    </body>
+</html>
