@@ -155,7 +155,7 @@
         "id": 11,
         "name": "架空の学生ダンスサークルのホームページ",
         "shortname": "dancecircle",
-        "tags": ["HTML", "CSS", "JavaScript", "React", "Design", "2020"],
+        "tags": ["HTML", "CSS", "JavaScript", "React", "Design", "Dance", "2020"],
         "topimage": "https://gyazo.com/671f82074041c28bb633f3848f5fdac4",
         "abstract": "Reactとデザインの練習として作成した, 架空の学生ダンスサークルのホームページです",
         "date": "2020年3月"
@@ -168,6 +168,15 @@
         "topimage": "https://gyazo.com/6b854e49163ce8510d5a2cdd7e193577",
         "abstract": "Scrapboxで書いた記事をAPIで取得して、簡易的なブログにしました",
         "date": "2020年5月"
+      },
+      {
+        "id": 13,
+        "name": "プログラミング出力 - LINEカスタムスタンプ",
+        "shortname": "outputLineSticker",
+        "tags": ["LINE Sticker", "Design", "2020"],
+        "topimage": "https://gyazo.com/9c381f0265e255869abe1470f21a9ab8",
+        "abstract": "メッセージを標準出力できるようなLINEカスタムスタンプを作りました",
+        "date": "2020年7月"
       }
     ],
     "blogs": [
