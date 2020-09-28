@@ -251,6 +251,24 @@
             "topimage": "https://gyazo.com/6a163b35f103ba423fd30fffa6d547bd",
             "abstract": "サークルに貢献したことを書いていきます。 ",
             "date": "2020年1月"
+        },
+        {
+            "id": 6,
+            "name":"研究室のオープンキャンパスでマネージャを担当しました",
+            "shortname": "oc2020manager",
+            "tags": ["Seminar", "2020"],
+            "topimage": "https://gyazo.com/60d3e552e655cc45e1d344455e4c97f6",
+            "abstract": "オンラインでのオープンキャンパスで企画・運営を行いました。",
+            "date": "2020年8月"
+        },
+        {
+            "id": 7,
+            "name":"24/2時間マラソンしてきました",
+            "shortname": "12hMarathon",
+            "tags": ["Hobby", "2020"],
+            "topimage": "https://gyazo.com/e06354dd82eb498f59d185c380e69e3b",
+            "abstract": "12時間以内に50km歩こうというチャレンジをしました。",
+            "date": "2020年9月"
         }
     ]
   }
