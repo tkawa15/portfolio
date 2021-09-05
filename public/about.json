@@ -1,0 +1,101 @@
+{
+    "skills": [
+        {
+            "id": 1,
+            "name": "HTML",
+            "assessment": 4
+        },
+        {
+            "id": 2,
+            "name": "CSS(Sass)",
+            "assessment": 3
+        },
+        {
+            "id": 3,
+            "name": "JavaScript(jQuery)",
+            "assessment": 4
+        },
+        {
+            "id": 4,
+            "name": "Node.js",
+            "assessment": 3
+        },
+        {
+            "id": 5,
+            "name": "Vue.js",
+            "assessment": 3
+        },
+        {
+            "id": 6,
+            "name": "Firebase",
+            "assessment": 3
+        },
+        {
+            "id": 7,
+            "name": "React",
+            "assessment": 1
+        },
+        {
+            "id": 8,
+            "name": "Processing",
+            "assessment": 4
+        },
+        {
+            "id": 9,
+            "name": "PHP",
+            "assessment": 2
+        },
+        {
+            "id": 10,
+            "name": "SQL",
+            "assessment": 2
+        },
+        {
+            "id": 11,
+            "name": "Swift",
+            "assessment": 1
+        },
+        {
+            "id": 12,
+            "name": "Unity",
+            "assessment": 2
+        },
+        {
+            "id": 13,
+            "name": "C Sharp",
+            "assessment": 2
+        },
+        {
+            "id": 14,
+            "name": "FinalCutProX",
+            "assessment": 3
+        },
+        {
+            "id": 15,
+            "name": "WordPress",
+            "assessment": 3
+        }
+    ],
+    "certifications": [
+        {
+            "id": 1,
+            "name": "普通自動車第一種免許（AT）"
+        },
+        {
+            "id": 2,
+            "name": "実用英語技能検定 2級"
+        },
+        {
+            "id": 3,
+            "name": "ウェブデザイン技能検定 3級"
+        },
+        {
+            "id": 4,
+            "name": "ウェブデザイナー検定 ベーシック"
+        },
+        {
+            "id": 5,
+            "name": "色彩検定 3級"
+        }
+    ]
+}

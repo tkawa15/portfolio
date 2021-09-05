@@ -3,11 +3,15 @@ const app = express();
 app.use(express.static("public"));
 
 const articles_json = require(__dirname + "/public/articles.json");
+const about_json = require(__dirname + "/public/about.json");
 const articles = articles_json.articles;
 
 const researches = (articles.researches).reverse();
 const works = (articles.works).reverse();
 const blogs = (articles.blogs).reverse();
+
+const skills = about_json.skills;
+const certifications = (about_json.certifications).reverse();
 
 var topimages = [];
 works.map(work => {
@@ -30,7 +34,10 @@ app.get("/", (request, response) => {
 });
 
 app.get("/about", (request, response) => {
-  response.render(__dirname + "/views/about.ejs");
+  response.render(__dirname + "/views/about.ejs", {
+    skills: skills,
+    certifications: certifications
+  });
 });
 
 app.get("/articles/tag/:tag", (request, response) => {

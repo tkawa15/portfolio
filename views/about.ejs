@@ -37,18 +37,25 @@
             <div class="section-wrapper">
               <h2>Skill</h2>
               <table border="0">
-                <tr><th>HTML</th><td>★ ★ ★ ★ ー</td></tr>
-                <tr><th>CSS</th><td>★ ★ ★ ★ ー</td></tr>
-                <tr><th>JavaScript(jQuery)</th><td>★ ★ ★ ★ ー</td></tr>
-                <tr><th>Node.js</th><td>★ ★ ★ ー ー</td></tr>
-                <tr><th>React</th><td>★ ー ー ー ー</td></tr>
-                <tr><th>Processing</th><td>★ ★ ★ ★ ー</td></tr>
-                <tr><th>PHP</th><td>★ ★ ★ ー ー</td></tr>
-                <tr><th>SQL</th><td>★ ★ ★ ー ー</td></tr>
-                <tr><th>Swift</th><td>★ ー ー ー ー</td></tr>
-                <tr><th>C#</th><td>★ ー ー ー ー</td></tr>
-                <tr><th>Unity</th><td>★ ー ー ー ー</td></tr>
-                <tr><th>WordPress</th><td>★ ★ ★ ー ー</td></tr>
+                <% skills.map(skill=> { %>
+                  <tr>
+                    <th>
+                      <a href="/articles/tag/<%= skill.name %>">
+                        <i class="fas fa-tag" style="margin-right: 4px;"></i>
+                      </a>
+                      <%= skill.name %>
+                    </th>
+                    <td>
+                      <% for(let i=1; i<=5; i++){ %>
+                        <% if(i<=skill.assessment){ %>
+                          ★ 
+                        <% } else { %>
+                          ー 
+                        <% } %>
+                      <% } %>
+                    </td>
+                  </tr>
+                <% }); %>
               </table>
             </div>
           </section>
@@ -57,8 +64,11 @@
             <div class="section-wrapper">
               <h2>Certification</h2>
               <ul>
-                <li>実用英語技能検定 2級</li>
-                <li>普通自動車第一種免許（AT）</li>
+                <% certifications.map(certification=> { %>
+                  <li>
+                    <%= certification.name %>
+                  </li>
+                <% }); %>
               </ul>
             </div>
           </section>

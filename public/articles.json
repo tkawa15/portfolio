@@ -5,10 +5,32 @@
         "id": 1,
         "name": "商品選択においてフォントがユーザの選択行動に及ぼす影響の調査",
         "shortname": "fontChoice",
-        "tags": ["Processing", "Seminar", "Font", "Selection support", "2019"],
+        "tags": [
+          "Processing",
+          "Seminar",
+          "Font",
+          "Selection support",
+          "2019"
+        ],
         "topimage": "https://gyazo.com/e5a647796d1636f3eb13abf040326906",
-        "abstract": "2019年5月に行われたHCS研究会にて,このタイトルで研究発表してきました",
+        "abstract": "2019年5月に行われたHCS研究会にて、このタイトルで研究発表してきました。",
         "date": "2019年5月"
+      },
+      {
+        "id": 2,
+        "name": "研究利用しやすく標準性を目指したビデオゲームの設計と開発",
+        "shortname": "openVideogameLibrary",
+        "tags": [
+          "Unity",
+          "C Sharp",
+          "Seminar",
+          "Game",
+          "FinalCutProX",
+          "2021"
+        ],
+        "topimage": "https://gyazo.com/ff98685193c86d24d7540bf54a7a2b2f",
+        "abstract": "エンタテインメントコンピューティング2021にて、このタイトルで研究発表してきました。",
+        "date": "2021年9月"
       }
     ],
     "works": [
@@ -16,27 +38,40 @@
         "id": 1,
         "name": "松崎し○るを探せ! - 人物探索ゲーム",
         "shortname": "lookForShigeru",
-        "tags": ["HSP", "Lecture", "2017"],
+        "tags": [
+          "HSP",
+          "Lecture",
+          "2017"
+        ],
         "topimage": "https://gyazo.com/8eca781c6d2fd6c16e19f365f2eceb67",
-        "abstract": "大学でプログラミングを学び始めてから, 一番最初に作った作品です",
+        "abstract": "大学でプログラミングを学び始めてから、一番最初に作った作品です。",
         "date": "2017年5月"
       },
       {
         "id": 2,
         "name": "クレー射撃の模倣",
         "shortname": "clayShooting",
-        "tags": ["Processing", "Lecture", "2017"],
+        "tags": [
+          "Processing",
+          "Lecture",
+          "2017"
+        ],
         "topimage": "https://gyazo.com/977f324c7e0bfbb9d0b380671588f388",
-        "abstract": "Processingを用いて, クレー射撃を模倣を作成しました",
+        "abstract": "Processingを用いて、クレー射撃を模倣を作成しました。",
         "date": "2017年7月"
       },
       {
         "id": 3,
         "name": "AUTOBEAT - 音楽を筋電で体感する装置",
         "shortname": "autobeat",
-        "tags": ["Processing", "Lecture", "PossessedHand", "2018"],
+        "tags": [
+          "Processing",
+          "Lecture",
+          "PossessedHand",
+          "2018"
+        ],
         "topimage": "https://gyazo.com/c9866381b367b6554642c949dc7b5b1b",
-        "abstract": "研究室のメンバー（僕含め３人）で, 音楽と身体を同期を目的に共同作成しました",
+        "abstract": "研究室のメンバー(僕含め３人)で、音楽と身体を同期を目的に共同作成しました。",
         "date": "2018年1月"
       },
       {
@@ -45,33 +80,45 @@
         "shortname": "canFind",
         "tags": [
           "HTML",
-          "CSS",
-          "JavaScript",
+          "CSS(Sass)",
+          "JavaScript(jQuery)",
           "PHP",
           "SQL",
           "Personal work",
           "2018"
         ],
         "topimage": "https://gyazo.com/d6a08d07de5b0189bb06d51cc1fc7356",
-        "abstract": "バイト先の商品の陳列場所がなかなか覚えられず, すぐに場所を検索できたら良いなと思って作成しました",
+        "abstract": "バイト先の商品の陳列場所がなかなか覚えられず、すぐに場所を検索できたら良いなと思って作成しました。",
         "date": "2018年8月"
       },
       {
         "id": 5,
         "name": "ストラックアウトの模倣",
         "shortname": "strackOut",
-        "tags": ["Processing", "Lecture", "3D", "2018"],
+        "tags": [
+          "Processing",
+          "Lecture",
+          "3D",
+          "2018"
+        ],
         "topimage": "https://gyazo.com/34fed81010e5a74d0d5098b96eccae53",
-        "abstract": "Processingで初めて3Dを触り, ストラックアウトを模倣しました",
+        "abstract": "Processingで初めて3Dを触り、ストラックアウトを模倣しました。",
         "date": "2019年1月"
       },
       {
         "id": 6,
         "name": "Choice! - 多数決支援Webアプリケーション",
         "shortname": "choice",
-        "tags": ["HTML", "CSS", "JavaScript", "Node.js", "Lecture", "2019"],
+        "tags": [
+          "HTML",
+          "CSS(Sass)",
+          "JavaScript(jQuery)()",
+          "Node.js",
+          "Lecture",
+          "2019"
+        ],
         "topimage": "https://gyazo.com/12e11907d20a574aab5b0b3bc21105f5",
-        "abstract": "ゼミのメンバー4人で作成した, 素早く多数決・アンケートを取れるWebアプリケーションです",
+        "abstract": "ゼミのメンバー4人で作成した、素早く多数決・アンケートを取れるWebアプリケーションです。",
         "date": "2019年1月"
       },
       {
@@ -80,15 +127,15 @@
         "shortname": "homepage1",
         "tags": [
           "HTML",
-          "CSS",
-          "JavaScript",
+          "CSS(Sass)",
+          "JavaScript(jQuery)",
           "Portfolio",
           "Pixel art",
           "Personal work",
           "2019"
         ],
         "topimage": "https://gyazo.com/539ef917b38288ccfd88f58bccfee6e2",
-        "abstract": "就活のときとかに, 僕についてよく知ってもらえるように作成したポートフォリオサイトです",
+        "abstract": "就活のときとかに、僕についてよく知ってもらえるように作成したポートフォリオサイトです。",
         "date": "2019年3月"
       },
       {
@@ -97,15 +144,15 @@
         "shortname": "checklot",
         "tags": [
           "HTML",
-          "CSS",
-          "JavaScript",
+          "CSS(Sass)",
+          "JavaScript(jQuery)",
           "Selection support",
           "Team work",
           "Personal work",
           "2019"
         ],
         "topimage": "https://gyazo.com/d3e2627777c6c4e528c4e6011dc6e7c3",
-        "abstract": "迷っている複数の選択肢があるときに, 素早く決めてくれるようなWebアプリケーションです",
+        "abstract": "迷っている複数の選択肢があるときに、素早く決めてくれるようなWebアプリケーションです。",
         "date": "2019年7月"
       },
       {
@@ -115,14 +162,14 @@
         "tags": [
           "Google Chrome",
           "HTML",
-          "CSS",
-          "JavaScript",
+          "CSS(Sass)",
+          "JavaScript(jQuery)",
           "Personal work",
           "Dance",
-          "2020"
+          "2019"
         ],
         "topimage": "https://gyazo.com/da09ff6ce552f129ee00e7d6284d87c2",
-        "abstract": "YouTubeを見ながらのダンス練習を, もっと効率的にしたいと思い作成したChrome拡張機能です",
+        "abstract": "YouTubeを見ながらのダンス練習を、もっと効率的にしたいと思い作成したChrome拡張機能です。",
         "date": "2019年8月"
       },
       {
@@ -131,15 +178,15 @@
         "shortname": "pixelPortfolio",
         "tags": [
           "HTML",
-          "CSS",
-          "JavaScript",
+          "CSS(Sass)",
+          "JavaScript(jQuery)",
           "Portfolio",
           "Pixel art",
           "Personal work",
-          "2020"
+          "2019"
         ],
         "topimage": "https://gyazo.com/0845592f60469e2e5254da5daee28fc8",
-        "abstract": "ドット絵上手くなりたいなと思って, 成長記録がてらポートフォリオを作成しました",
+        "abstract": "ドット絵上手くなりたいなと思って、成長記録がてらポートフォリオを作成しました。",
         "date": "2019年9月"
       },
       {
@@ -148,8 +195,8 @@
         "shortname": "dancecircle",
         "tags": [
           "HTML",
-          "CSS",
-          "JavaScript",
+          "CSS(Sass)",
+          "JavaScript(jQuery)",
           "React",
           "Design",
           "Dance",
@@ -157,16 +204,24 @@
           "2020"
         ],
         "topimage": "https://gyazo.com/671f82074041c28bb633f3848f5fdac4",
-        "abstract": "Reactとデザインの練習として作成した, 架空の学生ダンスサークルのホームページです",
+        "abstract": "Reactとデザインの練習として作成した、架空の学生ダンスサークルのホームページです。",
         "date": "2020年3月"
       },
       {
         "id": 12,
         "name": "Scrapboxをエディットアプリとしたブログ",
         "shortname": "sbBlog",
-        "tags": ["HTML", "CSS", "Node.js", "Scrapbox", "Web API", "Personal work", "2020"],
+        "tags": [
+          "HTML",
+          "CSS(Sass)",
+          "Node.js",
+          "Scrapbox",
+          "Web API",
+          "Personal work",
+          "2020"
+        ],
         "topimage": "https://gyazo.com/6b854e49163ce8510d5a2cdd7e193577",
-        "abstract": "Scrapboxで書いた記事をAPIで取得して、簡易的なブログにしました",
+        "abstract": "Scrapboxで書いた記事をAPIで取得して、簡易的なブログにしました。",
         "date": "2020年5月"
       },
       {
@@ -175,8 +230,8 @@
         "shortname": "homepage2",
         "tags": [
           "HTML",
-          "CSS",
-          "JavaScript",
+          "CSS(Sass)",
+          "JavaScript(jQuery)",
           "Node.js",
           "Portfolio",
           "Design",
@@ -184,83 +239,169 @@
           "2020"
         ],
         "topimage": "https://gyazo.com/daf0fb9695bb26d351f0cbe5496ad1dc",
-        "abstract": "ポートフォリオをリニューアルしました",
-        "date": "2019年6月"
+        "abstract": "ポートフォリオをリニューアルしました。",
+        "date": "2020年7月"
       },
       {
         "id": 14,
         "name": "プログラミング出力 - LINEカスタムスタンプ",
         "shortname": "outputLineSticker",
-        "tags": ["LINE Sticker", "Design", "Personal work", "2020"],
+        "tags": [
+          "LINE Sticker",
+          "Design",
+          "Personal work",
+          "2020"
+        ],
         "topimage": "https://gyazo.com/9c381f0265e255869abe1470f21a9ab8",
-        "abstract": "メッセージを標準出力できるようなLINEカスタムスタンプを作りました",
+        "abstract": "メッセージを標準出力できるようなLINEカスタムスタンプを作りました。",
         "date": "2020年7月"
+      },
+      {
+        "id": 15,
+        "name": "Hunter-Chameleon",
+        "shortname": "hunterChameleon",
+        "tags": [
+          "Seminar",
+          "Game",
+          "Unity",
+          "C Sharp",
+          "2021"
+        ],
+        "topimage": "https://gyazo.com/00e325ac4507b7e62e4f99641228367d",
+        "abstract": "Unityで開発した、カメレオンのシューティングゲームです。",
+        "date": "2021年8月"
       }
     ],
     "blogs": [
-        {
-            "id": 1,
-            "name":"HCS研究会で研究発表してきました",
-            "shortname": "okinawaHcs",
-            "tags": ["Seminar", "2019"],
-            "topimage": "https://gyazo.com/24f2995e3b5e4ff84380c40dd1c6c58d",
-            "abstract": "2019年5月に沖縄で行われたHSC研究会にて、研究成果を発表してきました。 ",
-            "date": "2019年5月"
-        },
-        {
-            "id": 2,
-            "name":"4社のインターンに参加してきました",
-            "shortname": "internSummer2019",
-            "tags": ["Intern", "2019"],
-            "topimage": "https://gyazo.com/9083e747a47779e3317e789826924fec",
-            "abstract": "3年次の夏休み中に参加した、4社の短期インターンについての報告です。 ",
-            "date": "2019年9月"
-        },
-        {
-            "id": 3,
-            "name":"明大祭で現役ラストのダンスパフォーマンスをしてきました",
-            "shortname": "meidaisai2019",
-            "tags": ["Club", "Dance", "2019"],
-            "topimage": "https://gyazo.com/23c7caff4cb5352e82b2856a8a541e09",
-            "abstract": "2019年11月に開催された明大祭で、ダンスサークルの現役ラストのパフォーマンスをしてきました。 ",
-            "date": "2019年11月"
-        },
-        {
-            "id": 4,
-            "name":"大学のサークルで学んだこと",
-            "shortname": "circleLookback",
-            "tags": ["Club", "Dance", "2019"],
-            "topimage": "https://gyazo.com/3771c1b93ea89f9b9444b78766b950d9",
-            "abstract": "約3年間、ダンスサークルに所属してきて学んだこと書いていきます。 ",
-            "date": "2019年12月"
-        },
-        {
-            "id": 5,
-            "name":"大学のサークルに貢献したこと",
-            "shortname": "circleContribution",
-            "tags": ["Club", "Dance", "2020"],
-            "topimage": "https://gyazo.com/6a163b35f103ba423fd30fffa6d547bd",
-            "abstract": "サークルに貢献したことを書いていきます。 ",
-            "date": "2020年1月"
-        },
-        {
-            "id": 6,
-            "name":"研究室のオープンキャンパスでマネージャを担当しました",
-            "shortname": "oc2020manager",
-            "tags": ["Seminar", "2020"],
-            "topimage": "https://gyazo.com/60d3e552e655cc45e1d344455e4c97f6",
-            "abstract": "オンラインでのオープンキャンパスで企画・運営を行いました。",
-            "date": "2020年8月"
-        },
-        {
-            "id": 7,
-            "name":"24/2時間マラソンしてきました",
-            "shortname": "12hMarathon",
-            "tags": ["Hobby", "2020"],
-            "topimage": "https://gyazo.com/e06354dd82eb498f59d185c380e69e3b",
-            "abstract": "12時間以内に50km歩こうというチャレンジをしました。",
-            "date": "2020年9月"
-        }
+      {
+        "id": 1,
+        "name": "HCS研究会で研究発表してきました",
+        "shortname": "okinawaHcs",
+        "tags": [
+          "Seminar",
+          "2019"
+        ],
+        "topimage": "https://gyazo.com/24f2995e3b5e4ff84380c40dd1c6c58d",
+        "abstract": "2019年5月に沖縄で行われたHSC研究会にて、研究成果を発表してきました。",
+        "date": "2019年5月"
+      },
+      {
+        "id": 2,
+        "name": "4社のインターンに参加してきました",
+        "shortname": "internSummer2019",
+        "tags": [
+          "Intern",
+          "2019"
+        ],
+        "topimage": "https://gyazo.com/9083e747a47779e3317e789826924fec",
+        "abstract": "3年次の夏休み中に参加した、4社の短期インターンについての報告です。",
+        "date": "2019年9月"
+      },
+      {
+        "id": 3,
+        "name": "明大祭で現役ラストのダンスパフォーマンスをしてきました",
+        "shortname": "meidaisai2019",
+        "tags": [
+          "Club",
+          "Dance",
+          "2019"
+        ],
+        "topimage": "https://gyazo.com/23c7caff4cb5352e82b2856a8a541e09",
+        "abstract": "2019年11月に開催された明大祭で、ダンスサークルの現役ラストのパフォーマンスをしてきました。",
+        "date": "2019年11月"
+      },
+      {
+        "id": 4,
+        "name": "大学のサークルで学んだこと",
+        "shortname": "circleLookback",
+        "tags": [
+          "Club",
+          "Dance",
+          "2019"
+        ],
+        "topimage": "https://gyazo.com/3771c1b93ea89f9b9444b78766b950d9",
+        "abstract": "約3年間ダンスサークルに所属してきて学んだこと書いていきます。",
+        "date": "2019年12月"
+      },
+      {
+        "id": 5,
+        "name": "大学のサークルに貢献したこと",
+        "shortname": "circleContribution",
+        "tags": [
+          "Club",
+          "Dance",
+          "2020"
+        ],
+        "topimage": "https://gyazo.com/6a163b35f103ba423fd30fffa6d547bd",
+        "abstract": "サークルに貢献したことを書いていきます。",
+        "date": "2020年1月"
+      },
+      {
+        "id": 6,
+        "name": "研究室のオープンキャンパスでマネージャを担当しました",
+        "shortname": "oc2020manager",
+        "tags": [
+          "Seminar",
+          "Manager",
+          "2020"
+        ],
+        "topimage": "https://gyazo.com/60d3e552e655cc45e1d344455e4c97f6",
+        "abstract": "オンラインでのオープンキャンパスで企画・運営を行いました。",
+        "date": "2020年8月"
+      },
+      {
+        "id": 7,
+        "name": "24/2時間マラソンしてきました",
+        "shortname": "12hMarathon",
+        "tags": [
+          "Hobby",
+          "2020"
+        ],
+        "topimage": "https://gyazo.com/e06354dd82eb498f59d185c380e69e3b",
+        "abstract": "12時間以内に50km歩こうという謎のチャレンジをしました。",
+        "date": "2020年9月"
+      },
+      {
+        "id": 8,
+        "name": "卒論発表会のマネージャを担当しました",
+        "shortname": "graduationThesis",
+        "tags": [
+          "Seminar",
+          "Manager",
+          "Vue.js",
+          "Firebase",
+          "FinalCutProX",
+          "2021"
+        ],
+        "topimage": "https://gyazo.com/62980be15824186edf36ae270e8635a0",
+        "abstract": "他研究室との合同卒論発表会にてマネージャを担当し、自身も発表してきました。",
+        "date": "2021年2月"
+      },
+      {
+        "id": 9,
+        "name": "Gatherを用いて新しい形式の研究発表会を運営しました",
+        "shortname": "gatherPresentation",
+        "tags": [
+          "Seminar",
+          "Manager",
+          "2021"
+        ],
+        "topimage": "https://gyazo.com/7fd2f11ad83354bb79ea3513e27a952c",
+        "abstract": "研究発表会のマネージャを担当し、オンラインでの対面のような議論方法を取り入れました。",
+        "date": "2021年8月"
+      },
+      {
+        "id": 10,
+        "name": "エンタテインメントコンピューティング2021で研究発表してきました",
+        "shortname": "ec2021",
+        "tags": [
+          "Seminar",
+          "2021"
+        ],
+        "topimage": "https://gyazo.com/ff98685193c86d24d7540bf54a7a2b2f",
+        "abstract": "2021年8・9月にオンラインで行われたエンタテインメントコンピューティング研究会にて、研究成果を発表してきました。",
+        "date": "2021年8月"
+      }
     ]
   }
 }

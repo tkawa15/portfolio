@@ -1,6 +1,6 @@
 .skill table{
   margin: 64px auto;
-  line-height: 64px;
+  line-height: 48px;
 }
 .skill table th{
   width: 40%;
@@ -17,5 +17,5 @@
   margin: 64px auto;
 }
 .certification ul li{
-  line-height: 64px;
+  line-height: 48px;
 }
