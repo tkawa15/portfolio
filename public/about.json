@@ -3,77 +3,98 @@
         {
             "id": 1,
             "name": "HTML",
-            "assessment": 4
+            "assessment": 4,
+            "icon": "fab fa-html5"
         },
         {
             "id": 2,
             "name": "CSS(Sass)",
-            "assessment": 3
+            "assessment": 3,
+            "icon": "fab fa-css3"
         },
         {
             "id": 3,
             "name": "JavaScript(jQuery)",
-            "assessment": 4
+            "assessment": 4,
+            "icon": "fab fa-js"
         },
         {
             "id": 4,
             "name": "Node.js",
-            "assessment": 3
+            "assessment": 3,
+            "icon": "fab fa-node"
         },
         {
             "id": 5,
             "name": "Vue.js",
-            "assessment": 3
+            "assessment": 3,
+            "icon": "fab fa-vuejs"
         },
         {
             "id": 6,
             "name": "Firebase",
-            "assessment": 3
+            "assessment": 3,
+            "icon": "fas fa-fire"
         },
         {
             "id": 7,
             "name": "React",
-            "assessment": 1
+            "assessment": 1,
+            "icon": "fab fa-react"
         },
         {
             "id": 8,
             "name": "Processing",
-            "assessment": 4
+            "assessment": 4,
+            "icon": "fab fa-product-hunt"
         },
         {
             "id": 9,
             "name": "PHP",
-            "assessment": 2
+            "assessment": 2,
+            "icon": "fab fa-php"
         },
         {
             "id": 10,
             "name": "SQL",
-            "assessment": 2
+            "assessment": 2,
+            "icon": "fas fa-database"
         },
         {
             "id": 11,
-            "name": "Swift",
-            "assessment": 1
+            "name": "Unity",
+            "assessment": 2,
+            "icon": "fab fa-unity"
         },
         {
             "id": 12,
-            "name": "Unity",
-            "assessment": 2
+            "name": "C Sharp",
+            "assessment": 2,
+            "icon": "fas fa-gamepad"
         },
         {
             "id": 13,
-            "name": "C Sharp",
-            "assessment": 2
+            "name": "FinalCutProX",
+            "assessment": 3,
+            "icon": "fas fa-film"
         },
         {
             "id": 14,
-            "name": "FinalCutProX",
-            "assessment": 3
+            "name": "Swift",
+            "assessment": 1,
+            "icon": "fab fa-swift"
         },
         {
             "id": 15,
+            "name": "Chrome extension",
+            "assessment": 2,
+            "icon": "fab fa-chrome"
+        },
+        {
+            "id": 16,
             "name": "WordPress",
-            "assessment": 3
+            "assessment": 3,
+            "icon": "fab fa-wordpress"
         }
     ],
     "certifications": [

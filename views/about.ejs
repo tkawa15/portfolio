@@ -39,11 +39,16 @@
               <table border="0">
                 <% skills.map(skill=> { %>
                   <tr>
+                    <td style="width: 1px;">
+                      <i class="<%= skill.icon %>"></i>
+                    </td>
                     <th>
-                      <a href="/articles/tag/<%= skill.name %>">
-                        <i class="fas fa-tag" style="margin-right: 4px;"></i>
+                      <span>
+                        <%= skill.name %>
+                      </span>
+                      <a href="/articles/tag/<%= skill.name %>" style="margin-left: 4px;">
+                        <i class="fas fa-tag"></i>
                       </a>
-                      <%= skill.name %>
                     </th>
                     <td>
                       <% for(let i=1; i<=5; i++){ %>

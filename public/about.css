@@ -3,12 +3,12 @@
   line-height: 48px;
 }
 .skill table th{
-  width: 40%;
+  width: 46%;
   text-align: left;
   font-weight: normal;
 }
 .skill table td{
-  width: 40%;
+  width: 46%;
   text-align: center;
 }
 
@@ -19,3 +19,40 @@
 .certification ul li{
   line-height: 48px;
 }
+
+/*
+.skill a {
+	padding-bottom: 3px;
+  line-height: auto;
+	display: inline-block;
+	position: relative;
+}
+.skill a:before {
+	content: '';
+	width: 0;
+	left: 50%;
+	bottom: 0;
+	transition: all .3s ease;
+	border-bottom: 1px solid #D8CC34;
+	position: absolute;
+	display: inline-block;
+}
+.skill a:hover:before {
+	width: 50%;
+	border-bottom: 1px solid #D8CC34;
+}
+.skill a:after {
+	content: '';
+	width: 0;
+	right: 50%;
+	bottom: 0;
+	transition: all .3s ease;
+	border-bottom: 1px solid #D8CC34;
+	position: absolute;
+	display: inline-block;
+}
+.skill a:hover:after {
+	width: 50%;
+	border-bottom: 1px solid #D8CC34;
+}
+*/
