@@ -1,6 +1,8 @@
 const express = require("express");
 const app = express();
 app.use(express.static("public"));
+const favicon = require('express-favicon');
+app.use(favicon(__dirname + '/public/images/favicon.png'));
 
 const articles_json = require(__dirname + "/public/articles.json");
 const about_json = require(__dirname + "/public/about.json");
