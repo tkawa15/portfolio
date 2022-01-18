@@ -312,7 +312,7 @@
           "JavaScript(jQuery)",
           "2021"
         ],
-        "topimage": "https://gyazo.com/69f2330d0fbefb8bb976ad3804942d97",
+        "topimage": "https://gyazo.com/8c8d38317656d3e8ecd5b5f8b9d6c4ae",
         "abstract": "Webブラウザ上で、複数のWebカメラの映像を録画できるシステムです。",
         "date": "2022年1月"
       }
@@ -462,6 +462,18 @@
         "topimage": "https://gyazo.com/28995b236d66d7bc92ee7f460d6541cb",
         "abstract": "2021年8・9月にオンラインで行われたエンタテインメントコンピューティング研究会にて、研究成果を発表してきました。",
         "date": "2021年8月"
+      },
+      {
+        "id": 12,
+        "name": "第196回ヒューマンコンピュータインタラクション研究会で研究発表してきました",
+        "shortname": "hci196",
+        "tags": [
+          "Seminar",
+          "2022"
+        ],
+        "topimage": "https://gyazo.com/d0f93b17800bcda047af333770957377",
+        "abstract": "2021年8・9月にオンラインで行われたエンタテインメントコンピューティング研究会にて、研究成果を発表してきました。",
+        "date": "2022年1月"
       }
     ]
   }
