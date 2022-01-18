@@ -31,6 +31,36 @@
         "topimage": "https://gyazo.com/ff98685193c86d24d7540bf54a7a2b2f",
         "abstract": "エンタテインメントコンピューティング2021にて、このタイトルで研究発表してきました。",
         "date": "2021年9月"
+      },
+      {
+        "id": 3,
+        "name": "日本のHCI分野におけるビデオゲームを使った評価に関するサーベイ",
+        "shortname": "videogameSurvey",
+        "tags": [
+          "Survey",
+          "Seminar",
+          "Game",
+          "2022"
+        ],
+        "topimage": "https://gyazo.com/a8087bef6bd25f3e0b157b1d13a5d2ec",
+        "abstract": "ヒューマンコンピュータインタラクション研究会にて、このタイトルで研究発表してきました。",
+        "date": "2022年1月"
+      },
+      {
+        "id": 4,
+        "name": "HCI研究における評価実験用ビデオゲームの要件探究とオープンビデオゲームライブラリを用いたケーススタディ",
+        "shortname": "ovglCaseStudy",
+        "tags": [
+          "HTML",
+          "CSS(Sass)",
+          "JavaScript(jQuery)",
+          "Seminar",
+          "Game",
+          "2022"
+        ],
+        "topimage": "https://gyazo.com/69f2330d0fbefb8bb976ad3804942d97",
+        "abstract": "ヒューマンコンピュータインタラクション研究会にて研究発表されたこの論文に、共著として参加しました。",
+        "date": "2022年1月"
       }
     ],
     "works": [
@@ -270,6 +300,21 @@
         "topimage": "https://gyazo.com/00e325ac4507b7e62e4f99641228367d",
         "abstract": "Unityで開発した、カメレオンのシューティングゲームです。",
         "date": "2021年8月"
+      },
+      {
+        "id": 16,
+        "name": "Multi View Recorder",
+        "shortname": "multiViewRecorder",
+        "tags": [
+          "Seminar",
+          "HTML",
+          "CSS(Sass)",
+          "JavaScript(jQuery)",
+          "2021"
+        ],
+        "topimage": "https://gyazo.com/69f2330d0fbefb8bb976ad3804942d97",
+        "abstract": "Webブラウザ上で、複数のWebカメラの映像を録画できるシステムです。",
+        "date": "2022年1月"
       }
     ],
     "blogs": [
