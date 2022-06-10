@@ -15,9 +15,11 @@
 .certification ul {
   width: 80%;
   margin: 64px auto;
+  list-style: none;
 }
 .certification ul li{
   line-height: 48px;
+  text-align: center;
 }
 
 /*

@@ -34,6 +34,22 @@
       },
       {
         "id": 3,
+        "name": "（共著）HCI研究における評価実験用ビデオゲームの要件探究とオープンビデオゲームライブラリを用いたケーススタディ",
+        "shortname": "ovglCaseStudy",
+        "tags": [
+          "HTML",
+          "CSS(Sass)",
+          "JavaScript(jQuery)",
+          "Seminar",
+          "Game",
+          "2022"
+        ],
+        "topimage": "https://gyazo.com/69f2330d0fbefb8bb976ad3804942d97",
+        "abstract": "ヒューマンコンピュータインタラクション研究会にて研究発表されたこの論文に、共著として参加しました。",
+        "date": "2022年1月"
+      },
+      {
+        "id": 4,
         "name": "日本のHCI分野におけるビデオゲームを使った評価に関するサーベイ",
         "shortname": "videogameSurvey",
         "tags": [
@@ -47,20 +63,30 @@
         "date": "2022年1月"
       },
       {
-        "id": 4,
-        "name": "HCI研究における評価実験用ビデオゲームの要件探究とオープンビデオゲームライブラリを用いたケーススタディ",
-        "shortname": "ovglCaseStudy",
+        "id": 5,
+        "name": "（共著）研究者が利用しやすいオープンなスポーツゲームの試作",
+        "shortname": "minimumTennis",
         "tags": [
-          "HTML",
-          "CSS(Sass)",
-          "JavaScript(jQuery)",
           "Seminar",
           "Game",
           "2022"
         ],
-        "topimage": "https://gyazo.com/69f2330d0fbefb8bb976ad3804942d97",
-        "abstract": "ヒューマンコンピュータインタラクション研究会にて研究発表されたこの論文に、共著として参加しました。",
-        "date": "2022年1月"
+        "topimage": "https://gyazo.com/144e9e95cf7f4ae4188dd295ef350b04",
+        "abstract": "インタラクション2022にて研究発表されたこの論文に、共著として参加しました。",
+        "date": "2022年2月"
+      },
+      {
+        "id": 6,
+        "name": "（共著）FPSゲームの要素分析とそれに基づくオープンなFPSゲームの開発",
+        "shortname": "openFps",
+        "tags": [
+          "Seminar",
+          "Game",
+          "2022"
+        ],
+        "topimage": "https://gyazo.com/4431a3ff12487a69e791a086937db193",
+        "abstract": "ゲーム情報学研究会にて研究発表されたこの論文に、共著として参加しました。",
+        "date": "2022年3月"
       }
     ],
     "works": [
