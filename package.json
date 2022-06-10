@@ -1,7 +1,10 @@
 {
   "name": "tea_kawashima",
+  "description": "T.Kawashima's portfolio site",
   "version": "1.0.0",
-  "description": "",
+  "engines": {
+    "node": "16.x"
+  },
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
