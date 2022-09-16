@@ -39,7 +39,7 @@
         "tags": [
           "HTML",
           "CSS(Sass)",
-          "JavaScript(jQuery)",
+          "JavaScript",
           "Seminar",
           "Game",
           "2022"
@@ -99,6 +99,18 @@
         "topimage": "https://gyazo.com/935354c518b10e0ef627804b4a1d44fb",
         "abstract": "エンタテインメントコンピューティング2021にて、このタイトルで研究発表してきました。",
         "date": "2022年9月"
+      },
+      {
+        "id": 8,
+        "name": "（共著）TeleStick：動画に触覚情報を収録できるカメラ周辺機器と再生手法",
+        "shortname": "telestick",
+        "tags": [
+          "Seminar",
+          "2022"
+        ],
+        "topimage": "https://gyazo.com/755330ce7c2fa035f51db5cb16bc32a1",
+        "abstract": "第27回VR学会年次大会にて研究発表されたこの論文に、共著として参加しました。",
+        "date": "2022年9月"
       }
     ],
     "works": [
@@ -149,7 +161,7 @@
         "tags": [
           "HTML",
           "CSS(Sass)",
-          "JavaScript(jQuery)",
+          "JavaScript",
           "PHP",
           "SQL",
           "Personal work",
@@ -180,7 +192,7 @@
         "tags": [
           "HTML",
           "CSS(Sass)",
-          "JavaScript(jQuery)()",
+          "JavaScript",
           "Node.js",
           "Lecture",
           "2019"
@@ -196,7 +208,7 @@
         "tags": [
           "HTML",
           "CSS(Sass)",
-          "JavaScript(jQuery)",
+          "JavaScript",
           "Portfolio",
           "Pixel art",
           "Personal work",
@@ -213,7 +225,7 @@
         "tags": [
           "HTML",
           "CSS(Sass)",
-          "JavaScript(jQuery)",
+          "JavaScript",
           "Selection support",
           "Team work",
           "Personal work",
@@ -231,7 +243,7 @@
           "Google Chrome",
           "HTML",
           "CSS(Sass)",
-          "JavaScript(jQuery)",
+          "JavaScript",
           "Personal work",
           "Dance",
           "2019"
@@ -247,7 +259,7 @@
         "tags": [
           "HTML",
           "CSS(Sass)",
-          "JavaScript(jQuery)",
+          "JavaScript",
           "Portfolio",
           "Pixel art",
           "Personal work",
@@ -264,7 +276,7 @@
         "tags": [
           "HTML",
           "CSS(Sass)",
-          "JavaScript(jQuery)",
+          "JavaScript",
           "React",
           "Design",
           "Dance",
@@ -299,7 +311,7 @@
         "tags": [
           "HTML",
           "CSS(Sass)",
-          "JavaScript(jQuery)",
+          "JavaScript",
           "Node.js",
           "Portfolio",
           "Design",
@@ -341,13 +353,29 @@
       },
       {
         "id": 16,
+        "name": "国会チャット",
+        "shortname": "kokkaiChat",
+        "tags": [
+          "PHP",
+          "Python",
+          "HTML",
+          "CSS(Sass)",
+          "Lecture",
+          "2022"
+        ],
+        "topimage": "https://gyazo.com/d149660713e21e2a31ce836ed8e96f8e",
+        "abstract": "授業でグループ開発した、LINEチャット風国会議事録閲覧システムです。",
+        "date": "2022年1月"
+      },
+      {
+        "id": 17,
         "name": "Multi View Recorder",
         "shortname": "multiViewRecorder",
         "tags": [
           "Seminar",
           "HTML",
           "CSS(Sass)",
-          "JavaScript(jQuery)",
+          "JavaScript",
           "2021"
         ],
         "topimage": "https://gyazo.com/8c8d38317656d3e8ecd5b5f8b9d6c4ae",
@@ -401,7 +429,7 @@
           "Personal work",
           "Processing",
           "Swift",
-          "JavaScript(jQuery)",
+          "JavaScript",
           "Chrome extension",
           "2019"
         ],
