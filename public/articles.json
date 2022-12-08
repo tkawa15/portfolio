@@ -111,6 +111,18 @@
         "topimage": "https://gyazo.com/755330ce7c2fa035f51db5cb16bc32a1",
         "abstract": "第27回VR学会年次大会にて研究発表されたこの論文に、共著として参加しました。",
         "date": "2022年9月"
+      },
+      {
+        "id": 9,
+        "name": "\"Ah-aloud\": Method for Evaluating Cognitive Processes Occurring During Tasks from Vocal Information",
+        "shortname": "ah-aloud",
+        "tags": [
+          "Seminar",
+          "2022"
+        ],
+        "topimage": "https://gyazo.com/4c84bc7d21423a01a7d2e9a66ad57760",
+        "abstract": "CHIuXiD2022にて、このタイトルで研究発表してきました。",
+        "date": "2022年11月"
       }
     ],
     "works": [
@@ -564,6 +576,18 @@
         "topimage": "https://gyazo.com/c91d986cd7e2ffb178a4470b7a0dc511",
         "abstract": "2022年9月に行われた第27回バーチャルリアリティ学会年次大会にて、TeleStickのデモ発表を行いました。",
         "date": "2022年9月"
+      },
+      {
+        "id": 15,
+        "name": "2つの国際会議で発表してきました",
+        "shortname": "internationalConference",
+        "tags": [
+          "Seminar",
+          "2022"
+        ],
+        "topimage": "https://gyazo.com/2ae1c336d7cebd09febb9834ef77eff6",
+        "abstract": "ハイブリッドで行われたCHIuXiD2022とつくばで行われたVRST2022に参加してきました。",
+        "date": "2022年11月"
       }
     ]
   }
