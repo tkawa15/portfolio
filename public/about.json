@@ -86,12 +86,6 @@
         },
         {
             "id": 15,
-            "name": "Chrome extension",
-            "assessment": 2,
-            "icon": "fab fa-chrome"
-        },
-        {
-            "id": 16,
             "name": "WordPress",
             "assessment": 3,
             "icon": "fab fa-wordpress"
